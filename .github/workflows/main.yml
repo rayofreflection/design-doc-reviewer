@@ -23,4 +23,4 @@ jobs:
       - name: Clone cmake-example for testing
         run: git clone https://github.com/gokhanettin/cmake-example.git
       - name: Run python scripts
-        run: python test\test.py cmake-example\apps\app1.cc
+        run: python test/test.py cmake-example/apps/app1.cc
